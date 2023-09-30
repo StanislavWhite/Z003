@@ -44,4 +44,41 @@
 //     Console.WriteLine("Введено неверное число");
 // } 
 
-// *Задача 5* программа
+// *Задача 5* программа, которая из числа определяет день недели
+// Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num > 0 && num < 8)
+// {
+//     if (num == 1)
+//     {
+//         Console.WriteLine("Сегодня: Понедельник");
+//     }
+//     if (num == 2)
+//     {
+//         Console.WriteLine("Сегодня: Вторник");
+//     }
+//     if (num == 3)
+//     {
+//         Console.WriteLine("Сегодня: Среда");
+//     }
+//     if (num == 4)
+//     {
+//         Console.WriteLine("Сегодня: Четверг");
+//     }
+//     if (num == 5)
+//     {
+//         Console.WriteLine("Сегодня: Пятница");
+//     }
+//     if (num == 6)
+//     {
+//         Console.WriteLine("Сегодня: Суббота");
+//     }
+//     if (num == 7)
+//     {
+//         Console.WriteLine("Сегодня: Воскресенье");
+//     }
+// }
+// else 
+// {
+//     Console.WriteLine("Введено неверное число");
+// }
