@@ -184,7 +184,6 @@ int StageDmg(int attack, int defend)
     return attackDmg;
     return defendDmg;
 }
-
 StageDmg(attackArmyMoralSpirit, defendArmyMoralSpirit);
 
 int StageDf(int attack, int defend)
@@ -209,5 +208,4 @@ int StageDf(int attack, int defend)
     return attackDf;
     return defendDf;
 }
-
 StageDmg(attackArmyDiscipline, defendArmyDiscipline);
