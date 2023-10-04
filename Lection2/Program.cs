@@ -72,34 +72,33 @@
 // Console.WriteLine(newText);
 
 
-int[] arr = {7,8,2,4,5,1,6,9,3};
-
-void PrintArray(int[] num)
-{
-    int length = num.Length;
-    for (int i = 0; i < length; i++)
-    {
-        Console.Write($"{num[i]} ");
-    }
-}
-void SortingArray(int[] num)
-{
-    for (int i = 0; i < num.Length - 1; i++)
-    {
-        int minPosition = i;
-        for (int j = i + 1; j < num.Length; j++)
-        {
-            if (num[j] < num[minPosition])
-            {
-                minPosition = j;
-            }
-        }
-        int temporary = num[i];
-        num[i] = num[minPosition];
-        num[minPosition] = temporary;        
-    }
-}
-PrintArray (arr);
-Console.WriteLine();
-SortingArray(arr);
-PrintArray(arr);
+// int[] arr = {7,8,2,4,5,1,6,9,3};
+// void PrintArray(int[] num)
+// {
+//     int length = num.Length;
+//     for (int i = 0; i < length; i++)
+//     {
+//         Console.Write($"{num[i]} ");
+//     }
+// }
+// void SortingArray(int[] num)
+// {
+//     for (int i = 0; i < num.Length - 1; i++)
+//     {
+//         int minPosition = i;
+//         for (int j = i + 1; j < num.Length; j++)
+//         {
+//             if (num[j] < num[minPosition])
+//             {
+//                 minPosition = j;
+//             }
+//         }
+//         int temporary = num[i];
+//         num[i] = num[minPosition];
+//         num[minPosition] = temporary;        
+//     }
+// }
+// PrintArray (arr);
+// Console.WriteLine();
+// SortingArray(arr);
+// PrintArray(arr);
