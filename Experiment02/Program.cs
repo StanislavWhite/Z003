@@ -40,6 +40,3 @@ PrintNum(num);
 SortingNum(num);
 Console.WriteLine("");
 PrintNum(num);
-
-
-// Бот Телеграмм
